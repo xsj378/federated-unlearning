@@ -59,3 +59,4 @@ def model_matrix_cheng(global_model,model1,model2,n,tri):
         # print(proj)
         model.state_dict()[name].copy_(global_model.state_dict()[name].data + model1.state_dict()[name].data*norm*n/tri)
     return model
+
