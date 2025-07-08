@@ -3,7 +3,7 @@
 
 通过联邦忘却学习撤销用户数据对模型更新的方式解决联邦学习中存在的隐私泄露问题。联邦忘却学习的一般架构图：
 
-<img src="/doc/structure.png" width="50%" height="150%">
+<img src="/doc/structure.png" width="50%" height="200%">
 
 具体流程；
 + 联邦学习。中心服务器协同用户进行联邦学习，训练得到最优模型参数。
