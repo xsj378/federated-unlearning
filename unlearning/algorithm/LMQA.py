@@ -24,3 +24,4 @@ def ca_impact(Var):
             impact[j] += Mean_remove(end_loss,j) - Mean_remove(start_loss,-1)
 
     return np.array(impact)-np.mean(impact)
+    
